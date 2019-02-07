@@ -1,0 +1,12 @@
+{application,portfoliomanager,
+             [{applications,[kernel,stdlib,elixir,logger,cowboy,plug,
+                             plug_cowboy]},
+              {description,"portfoliomanager"},
+              {modules,['Elixir.Portfoliomanager',
+                        'Elixir.Portfoliomanager.Application',
+                        'Elixir.Portfoliomanager.Router',
+                        'Elixir.Portfoliomanager.Stubs']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger,cowboy,plug]},
+              {mod,{'Elixir.Portfoliomanager.Application',[]}}]}.
