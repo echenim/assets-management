@@ -1,5 +1,5 @@
 {application,portfoliomanager,
-             [{applications,[kernel,stdlib,elixir,logger,cowboy,plug,
+             [{applications,[kernel,stdlib,elixir,logger,jason,cowboy,plug,
                              plug_cowboy]},
               {description,"portfoliomanager"},
               {modules,['Elixir.Portfoliomanager',
@@ -8,5 +8,5 @@
                         'Elixir.Portfoliomanager.Stubs']},
               {registered,[]},
               {vsn,"0.1.0"},
-              {extra_applications,[logger,cowboy,plug]},
+              {extra_applications,[logger]},
               {mod,{'Elixir.Portfoliomanager.Application',[]}}]}.

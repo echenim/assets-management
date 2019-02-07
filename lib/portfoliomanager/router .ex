@@ -1,9 +1,9 @@
 defmodule Portfoliomanager.Router  do
     use Plug.Router
 
-    alias RouterExample.Stubs
+    alias Portfoliomanager.Stubs
   
-    @template_dir "lib/router_example/templates"
+    @template_dir "lib/portfoliomanager/templates"
   
     plug Plug.Parsers,
       parsers: [:urlencoded, :json],

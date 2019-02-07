@@ -8,7 +8,7 @@ defmodule Portfoliomanager.Application do
   def start(_type, _args) do
     # List all child processes to be supervised
     children = [
-       Plug.Cowboy.child_spec(scheme: :http, plug: RouterExample.Router, options: [port: application_port()])
+       Plug.Cowboy.child_spec(scheme: :http, plug: Portfoliomanager.Router, options: [port: application_port()])
      
     ]
 
